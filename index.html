@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7a35e41647.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+
+<body>
+
+         <!-- navbar section -->
+         <header class=" navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Pizza Time</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="row collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="head-top">
+                            <ul class="list-group list-inline list-group-horizontal ">
+                                <li class="list-item"><a href="about.html" class="nav-link">About</a></li>
+                                <li class="list-item"><a href="menu.html" class="nav-link">Menu</a></li>
+                                <li class="list-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="head-top">
+                            <a href="index.html"><img src="logo.png" alt="logo" class="navbar-brand"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <div class="head-top">
+                            <div class="linked d-flex">
+                                <a href="#">+91- 8306885992</a>
+                                <button type="button" class="btn button2" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                                    Order Online
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="container">
+                <input type="text" id="reversestr" onkeyup="rever()">
+                <input type="text" id="showData">
+            </div>
+                
+
+
+             javascript try on order online btn 
+            <script>
+                function rever(){
+                    var str = document.getElementById('reversestr').value;
+                    var newstring = " ";
+                    for(var i = str.length - 1 ; i >= 0; i-- ){
+                        newstring += str[i] ;
+                        
+                    }
+                    document.getElementById('showData').value = newstring ;
+
+                    
+                }
+            </script> -->
+
+
+        </header>
+    
+    
+        <!-- Button trigger modal -->
+        </div>
+        <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="innerhead">
+                            <h5 class="modal-title" id="exampleModalLabel">Pizza Time</h5>
+                            <p class="aftsign">It's quick and easy.</p>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="d-flex">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div>
+                                <input type="text" class="form-control" placeholder="Mobile no. or e-mail address">
+                                <input type="text" class="form-control" placeholder="Address">
+                                <a href="menu.html"><button type="button" class="btn btn-outline-dark">Order</button></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+    <!-- background start here -->
+
+    <section class="slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="textarea">
+                        <h1>Hello</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupid</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- foodarea start here -->
+    <section class="foodarea">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 order-area">
+                    <div class="food-img">
+                        <img src="chawmin.jpg" alt="" class="card-img">
+                        <h3>Sandwich</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque quia neque consequatur
+                            tempora, corrupti reprehenderit at eos sit, deserunt sint Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.</p>
+                        <button class="btn btn-outline-primary">Order</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 order-area">
+                    <div class="food-img">
+                        <img src="pizza.jpg" alt="" class="card-img">
+                        <h3>Pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque quia neque consequatur
+                            tempora, corrupti reprehenderit at eos sit, deserunt sint Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-outline-primary">Order</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 order-area">
+                    <div class="food-img">
+                        <img src="bur.jpg" alt="" class="card-img">
+                        <h3>Burger</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque quia neque consequatur
+                            tempora, corrupti reprehenderit at eos sit, deserunt sint Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.</p>
+                            <button class="btn btn-outline-primary">Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reservation section -->
+    <section class="reservation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-8 col-sm-12">
+                    <h1>Reservations</h1>
+                    <div class="textarea">
+                        <div class="innertextarea">
+                            <input type="date" placeholder="Date" class="form-control">
+                            <input type="time" placeholder="Time" class="form-control">
+                            <input type="number" placeholder="party size" class="form-control">
+                            <button type="submit" class="btn ">Book Now </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- footer start here -->
+
+   
+<footer>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="footer-area">
+                    <h3>Important Links</h3>
+                    <div class="blankline"></div>
+                    <ul class="inner-footer-area">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html"> Menu </a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="footer-area">
+                    <h3>Contact</h3>
+                    <div class="blankline"></div>
+                    <ul class="d-flex inner-footer-area">
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                        <li><i class="fab fa-youtube"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="footer-area">
+                    <h3>Address</h3>
+                    <div class="blankline"></div>
+                        <div class="inner-footer-area">Rajasthan,india <br>
+                            Contact NO. +91-8306885992
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

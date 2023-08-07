@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif; 
+    /* font-family: 'Bangers', cursive; */
+}
+p{
+    font-family:  cursive;
+    font-size: 15px;
+}
+
+
+
+
+
+ /* head section start */
+header{
+    background-color: #fff8e7;
+    font-family: 'Amiri', serif;
+
+}
+header .container-fluid{
+    width: 100%;
+}
+header .navbar-toggler{
+    float: right;
+    margin-top: 5px;
+}
+
+header .navbar-brand{
+    font-size: xx-large;
+    font-weight: 700;
+
+}
+
+header .head-top a{
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+}
+
+header .head-top a:hover{
+    color: #fc5d3d;
+}
+
+  header .head-top img{
+    height: 120px;
+    cursor: pointer;
+}  
+/* 
+media query for image */
+
+  @media screen and (max-width: 767px){
+    header .head-top img{
+        height: 400px;
+    }
+} 
+
+header .head-top .linked{
+    position: relative;
+    margin: 0.5rem 1rem;
+    margin-block: 35px;
+    justify-content: space-between;    
+}
+
+header .head-top .linked button{
+    margin-bottom: 5px;
+    background-color: #fc5d3d ;
+    color: black;
+    font-weight: bolder;
+}
+header .head-top .linked button:hover{
+    color: #fff8e7;
+    background-color: #cccccc;
+}
+
+/* 
+modal button  */
+.modal .modal-content{
+    background-color: whitesmoke;
+    
+}
+.modal .modal-body input{
+    margin: 10px 0px;
+}
+
+ /* head section end  */
+
+ /* backgrond section */
+.slider{
+    background-image: url(back.jpg);
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 10px;
+}
+
+.slider .container .textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+    margin: 223px 0px;
+    color: #fff8e7;
+}
+/* backgrond section end  */
+
+/* card section start */
+
+
+.foodarea{
+    padding: 30px;
+}
+
+.foodarea .order-area{
+    margin: 18px 0px;
+}
+.food-img{
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 100%;
+    text-align: center;
+}
+.food-img h3{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 15px;
+    color: black;
+}
+.food-img p{
+    font-size: 15px;
+    color: black;
+    
+}
+
+.foodarea .btn-outline-primary{
+    color: white;
+    background-color: #fc5d3d;
+    font-weight: 500;
+    border:none;
+    
+}
+.foodarea .btn-outline-primary:hover{
+    color: black;
+    background-color: #ffffff;
+}
+    
+    
+
+
+
+
+/* card section end */
+
+/* reservation section start */
+.reservation{
+    background-color: rgb(250 248 241);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reservation h1{
+    text-align: center;
+}
+.reservation .textarea{
+    font-size: 18px;
+    font-family: serif;
+    color: rgba(9,15,15,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .reservation input{
+    padding: 10px;
+} */
+
+.reservation .textarea .form-control{
+    display: inline;
+    width: 200px;
+    padding: 10px;
+    border-color: black;
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+.reservation .textarea button{
+    display: inline-block;
+    padding: 10px 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    background-color: rgba(124,108,80,1);
+    color: rgba(250,248,241,1);
+}
+/* 
+footer area start here */
+footer{
+    background-color: black;
+    color: #ffffff;
+    padding: 10px;
+}
+.footer-area ul{
+    list-style: none;
+}
+footer .footer-area li a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.footer-area li i{
+    padding: 10px 10px 4px 0px;
+    
+}
+
+.footer-area .blankline{
+    border-bottom: 2px solid #212529;
+    width: 150px;
+}
+footer .footer-area .inner-footer-area{
+    padding: 10px;
+    font-family: 'Short Stack', cursive;
+}
+footer .inner-footer-area a:hover{
+    color: chocolate;
+    cursor:pointer !important;
+}
+
+
+
+
+/* about stylesheet here */
+
+
+.abtsec {
+    background-color: #f2f2f2;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+section marquee{
+    height: 390px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+section .asidesection{
+    padding: 10px;
+    display: block;
+    overflow: hidden;
+    
+}
+.abtsec .textbody{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+section .asidesection img{
+    margin: 10px 0px;
+}
+
+
+.booking-section {
+    background-image: url(asidebur.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.booking-section .booking-form .form-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-section .form-area input , .options {
+    padding: 10px 5px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+/* card area start here */
+
+.our-customer {
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #eaeaea;
+
+}
+.our-customer .review h3{
+    font-weight: bold;
+}
+.our-customer .review p{
+    font-size: 15px;
+}
+.cardsection{
+    padding: 30px;
+}
+
+.cardsection .card-area{
+    margin: 20px 0px;
+}
+.fullcard{
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 100%;
+    text-align: center;
+}
+.fullcard h3{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 15px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fullcard p{
+    font-size: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fullcard .card-img{
+    border-radius: 100%;
+}
+
+/* menu page start here */
+
+.food-menu{
+    background-image: url(asidebur.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    padding: 40px 0px;
+
+}
+.food-menu .container .text-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+    margin: 223px 0px;
+    color: #fff8e7;
+}
+.food-menu .container .text-menu h1{
+    font-weight: 600;
+    color: #e6e3a5;
+}
+
+
+/* map area style start here */
+
+.map-area{
+    padding: 18px 0px;
+    margin: 10px 0px;
+
+}
+.map-area iframe{
+    opacity: 75%;
+}
+
+/* 
+address area start here */
+
+
+.contact-form .form_area{
+    margin: 10px 0px;
+    padding: 30px;
+}
+
+form .address{
+    display: flex;
+    justify-content: space-between ;
+    margin: 4px 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+form .address h3{
+    font-size: 24px;
+}
+
+.contact-form .d-flex li{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-form .d-flex li i{
+    color: black;
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
